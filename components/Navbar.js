@@ -14,7 +14,7 @@ import { BsSearch } from "react-icons/bs";
 import { FiKey } from "react-icons/fi";
 
 const Navbar = () => (
-  <Flex p="2" borderBottom="1px" borderColor="gray.100">
+  <Flex p="2" py={7} borderBottom="1px" borderColor="gray.100">
     <Box
       className="logo"
       fontSize="2xl"

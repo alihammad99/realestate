@@ -11,7 +11,7 @@ const Hero = () => {
 
     >
       <Image
-        layout="responsive"
+        layout="fill"
         placeholder="blur"
         objectFit="cover"
         src={Dubai}
