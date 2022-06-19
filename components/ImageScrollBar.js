@@ -41,14 +41,14 @@ const ImageScrollBar = ({ data }) => (
     RightArrow={RightArrow}
   >
     {data.map((item) => (
-      <Box width="920px" itemId={item.id} overflow="hidden" p="1" key={item.id}>
+      <Box width="920px" height="200px" itemId={item.id} overflow="hidden" p="1" key={item.id}>
         <Image
-          sizes="(max-width:500px) 100px, (max-width:1023px) 400px, 1000px"
+          sizes="(max-width:500px) 500px, (max-width:1023px) 500px, 1000px"
           placeholder="blur"
           blurDataURL={item.url}
           src={item.url}
-          width={900}
-          height={500}
+          width={600}
+          layout="fill"
           alt="property"
         />
       </Box>

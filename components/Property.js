@@ -21,7 +21,7 @@ const Property = ({
     externalID,
   },
 }) => (
-  <Link href={`/property/${externalID}`} passHref>
+  <Link href={`/property/${externalID}`} passHref >
     <Flex
       flexWrap="wrap"
       w="420px"
@@ -29,6 +29,7 @@ const Property = ({
       paddingTop="0"
       justifyContent="flex-start"
       cursor="pointer"
+      mb={10}
     >
       <Box>
         <Image
